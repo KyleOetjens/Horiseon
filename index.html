@@ -2,12 +2,14 @@
 <html lang="en-us">
 <head>
     <meta charset="UTF-8" />
+    <!--I added the below, it helps a little but is there more I can do-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Horiseon</title>
 </head>
 
 <body>
-    <nav class="header">
+    <nav>
         <header>
             <h1>Hori<span class="seo">seo</span>n</h1>
              <div>
@@ -20,8 +22,8 @@
         </header>
     </nav>
 
-    <div class="hero"></div>
-    <div class="content">
+    <section class="hero"></section><!--when to uses section instead of div, also, should this have alt text-->
+    <section class="content">
         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="SEO image, notebok and magnifying glass"/>
                 <h2>Search Engine Optimization</h2>
@@ -37,8 +39,8 @@
                 <h2>Social Media Marketing</h2>
                     <p>Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.</p>
         </div>
-    </div>
-    <div class="benefits">
+    </section>
+    <section class="benefits">
         <figure class="benefit-lead">
             <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="image of gears"/>
@@ -54,13 +56,12 @@
                 <img src="./assets/images/cost-management.png" alt="image of money">
                     <figcaption>As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.</figcaption>
         </figure>
-    </div>
-    <div class="footer">
-       <footer>
+    </section>
+       <footer class="footer">
             <h4>Made with ❤️️ by Horiseon</h4>
                 <p>&copy; 2019 Horiseon Social Solution Services, Inc.</p>
         </footer>
-    </div>
+    
 </body>
 
 </html>

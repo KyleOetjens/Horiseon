@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-.header {
+nav {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -16,16 +16,16 @@ body {
     
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -34,13 +34,13 @@ body {
 }
 /*
 .header div ul {
-    list-style-type: none;
+    list-style-type: none;--- I think I can remove this
 }
 */
-.header div ul li {
+header ul li { /*I removed div from here and it was fine, but when I removed the header div in HTML it broke*/
     display: inline-block;
     margin-left: 25px;
-    list-style-type: none; /*I moved this here from header div ul*/
+    list-style-type: none; /*I moved this here from header div ul, can I move more to header div*/
 }
 
 a {
@@ -49,7 +49,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 16px; /*can I move this and a up to body or global?*/
 }
 
 .hero {
