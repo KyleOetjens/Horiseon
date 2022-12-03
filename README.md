@@ -21,5 +21,6 @@ Changed footer to h4 instead of h2
 Changed Title to Horiseon
 
 
-to do
-
+12/3-
+added ID elements back in
+Did moving list-style-type: none; to  .header div ul li do the right thing?
