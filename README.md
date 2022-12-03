@@ -19,3 +19,7 @@ Added figure and figcaption
 Added alt text to images, removed closing image tag
 Changed footer to h4 instead of h2
 Changed Title to Horiseon
+
+
+to do
+
