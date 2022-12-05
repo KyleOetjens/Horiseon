@@ -1,3 +1,4 @@
+/*Global Styling*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -7,8 +8,8 @@
 body {
     background-color: #d9dcd6;
 }
-
-nav {
+/*Header,h1 and nav styling*/
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -25,33 +26,29 @@ header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/*
-.header div ul {
-    list-style-type: none;--- I think I can remove this
-}
-*/
-header ul li { /*I removed div from here and it was fine, but when I removed the header div in HTML it broke*/
+
+header ul li { 
     display: inline-block;
     margin-left: 25px;
-    list-style-type: none; /*I moved this here from header div ul, can I move more to header div*/
+    list-style-type: none; 
 }
-
+/*text styling*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
 p {
-    font-size: 16px; /*can I move this and a up to body or global?*/
+    font-size: 16px; 
 }
-
+/*hero image styling*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +56,12 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+/*main section image styling*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .float-left {
@@ -71,24 +74,16 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-.content img {
+.services img {
     max-height: 200px;
 }
 
-.content h2 {
+.services h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.search-engine-optimization, 
-.online-reputation-management, 
-.social-media-marketing  {
+.services {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -97,6 +92,7 @@ p {
     color: #ffffff;
 }
 
+/*aside section text and image styling*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -108,25 +104,24 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead, 
-.benefit-brand,
-.benefit-cost  {
+.benefit  {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefits h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+/*footer styling*/
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
